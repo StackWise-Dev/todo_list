@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    padding: 0px 30px;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    background-color: #3399ff;
+    margin: 5px 0px;
+    padding: 10px;
+    color: #fff;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #3399ff; */
+    margin: 20px 0px;
+    display: flex;
+    gap: 5px;
+    padding: 30px 0px;
+}
+.wrapper input {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #3399ff;
+}
+.wrapper input:focus {
+    outline: none;
+}
+.wrapper .btn-add {
+    width: 90px;
+    border: 0px;
+    background-color: #3399ff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wrapper .btn-add:hover {
+    background-color: #3366dd;
+}
+
+.content-block {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
+}
+.content-block h2 {
+    font-size: 2.5em;
+    color: #3399ff;
+    border-bottom: 1px solid #3399ff;    
+}
+.content-block .task-block {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+.content-block .task-block .show-block {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    gap: 5px;
+    /* background-color: green; */
+}
+.content-block .task-block .show-block input {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #3399ff;
+    
+}
+.content-block .task-block .show-block input:focus {
+    outline: none;
+}
+.content-block .task-block .show-block .btn-delete {
+    width: 90px;
+    border: 0px;
+    background-color: #3399ff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.content-block .task-block .show-block .btn-delete:hover {
+    background-color: #3366dd;
+}
+
